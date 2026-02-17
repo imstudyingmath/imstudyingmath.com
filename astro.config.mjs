@@ -9,7 +9,7 @@ import remarkExternalLinks from 'remark-external-links';
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'I'm studying math.',
+      title: "I'm studying math.",
       defaultLocale: 'root',
       locales: {
         root: {
@@ -55,4 +55,5 @@ export default defineConfig({
     ],
   },
 });
+
 
